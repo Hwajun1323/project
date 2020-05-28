@@ -7,7 +7,7 @@
   <body>
     <%- include('../partials/nav') %>
 
-    <div class="container mb-3">
+    <div class="form mb-3">
 
       <h3 class="contentBoxTop mb-3">New User</h3>
 
@@ -58,6 +58,19 @@
             <% } %>
           </div>
         </div>
+        
+        <div class="form-group row">
+          <label for="type" class="col-sm-3 offset-sm-3 col-form-label">I am*</label>
+          <div class="col-sm-3 col-sm-offset-3">
+            <select name="type">
+              <option value="">==SELECT==</option>
+              <option value="1">VVE BOARD</option>
+              <option value="2">VVE MEMBER</option>
+              <option value="3">SUPPLIER</option>
+            </select>
+          </div>
+      </div>
+
         <p>
           <small>*Required</small>
         </p>

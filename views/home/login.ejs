@@ -3,11 +3,25 @@
   <head>
     <%- include('../partials/head') %>
     <link rel="stylesheet" href="/css/login.css">
+    <style>
+      .button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <%- include('../partials/nav') %>
 
-    <div class="container">
+    <div class="form">
 
       <h3 class="mb-3">LOGIN</h3>
 
@@ -37,17 +51,20 @@
           <div class="invalid-feedback d-block"><%= errors.login %></div>
         <% } %>
 
-        <div class="mt-5">
-          <input class="btn btn-primary" type="login" value="LOGIN">
-        </div>
+        
 
         <p class="message">
           "Not Register yet?"
           <a href="new">Register</a>
         </p>
 
+        <div class="mt-5">
+          <input class="btn btn-primary" type="submit" value="LOGIN">
+        </div>
+
       </form>
 
     </div>
   </body>
 </html>
+x`
