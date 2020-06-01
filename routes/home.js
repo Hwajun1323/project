@@ -84,11 +84,19 @@ router.get('/finanace-search', function(req, res){
   res.render('posts');
 });
 
+// Side navigation
 //find vve
 router.get('/map', function(req, res){
-  res.render('map');
+  res.render('map/map');
 });
-
+//newsletter
+router.get('/newsletter', function(req, res){
+  res.render('newsletter/newsletter');
+});
+// support
+router.get('/support', function(req, res){
+  res.render('home/contact');
+});
 
 // Login
 router.get('/login', function (req,res) {

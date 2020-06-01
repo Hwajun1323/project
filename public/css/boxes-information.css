@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-image: url("../img/image2.jpg"); 
   height:100vh;
   background-size: cover;
@@ -11,12 +11,11 @@ body {
 }
 
 #fullpage .section{
-  height: 100vh;
+  height: 100%;
   display: block;
   width: 100%;
   background: transparent;
 }
-
 
 #fullpage .section .conatiner h1{
   color: white;

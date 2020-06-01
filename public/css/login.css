@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-image: url("../img/house2.jpg");
     height:100vh;
     background-size: cover;
@@ -51,7 +51,7 @@ button {
 .col-sm-3  input{
     outline: 1;
     background: white;
-    width: 100%;
+    width: 60%;
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
@@ -59,7 +59,7 @@ button {
 }
 
 .col-sm-3 {
-    text-align: center;
+    
     position:relative;
     z-index: 1;
     max-width: 25%;
