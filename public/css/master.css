@@ -104,12 +104,14 @@ body {
 	background: rgba(255, 255, 255, 0.76);
 	z-index: 30;
   transition: .35s;
+  overflow-y: scroll;
 }
 
 .container .sidebar .sidenav{
   margin:40px;
   padding-top:60px;
   font-size: 16px;
+  list-style: none;
 }
 
 .container .sidebar .sidenav .sidebar-link:hover{
